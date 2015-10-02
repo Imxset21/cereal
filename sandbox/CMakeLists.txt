@@ -6,7 +6,6 @@ add_executable(sandbox_rtti sandbox_rtti.cpp)
 
 add_executable(sandbox_vs sandbox_vs.cpp)
 target_link_libraries(sandbox_vs sandbox_vs_dll)
-include_directories(sandbox_shared_lib)
 
 if(Boost_FOUND)
   add_executable(performance performance.cpp)
